@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_1/widgets/drawer.dart';
 
@@ -10,7 +11,10 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('ABOUT'),
+        title: (Text(
+          'Catalog App',
+          style: TextStyle(color: Colors.black),
+        )),
       ),
       body: Center(
         child: Container(
